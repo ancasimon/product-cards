@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
     width: auto;
     flex-grow: 1;
     flex: 1 1 30%;
@@ -14,17 +13,17 @@ body {
 
 .card {
     box-shadow: 1px 1px 1px 1px;
-    flex: 1 1 calc(33% - 4px);
     height: auto;
-    margin: 4px;
+    margin: 2em;
     padding: 20px 10;
-    width: 33%;
+    width: 25%;
     height: auto;
+    text-align: justify;
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 2em;
 }
 
 .card-title {
@@ -44,4 +43,7 @@ img {
     width: 100%;
     background-color: darkgrey;
     color: yellow;
+}
+p.height {
+    height: 125px;
 }
