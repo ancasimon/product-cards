@@ -26,6 +26,21 @@ img {
     height: 300px;
     width: 2em;
 }
+.primaryimage {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.overlay {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+    max-height: 125px;
+    width: auto;
+    height: auto;
+}
 
 .card-title {
     border-width: 1px;
