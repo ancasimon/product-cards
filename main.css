@@ -33,6 +33,7 @@ img {
     border-color: lightblue;
     text-align: center;
     background-color: #4CAF50;
+    font-family: 'Oswald', sans-serif;
 }
 
 .center {
@@ -45,6 +46,7 @@ img {
     width: 100%;
     background-color: darkgrey;
     color: yellow;
+    font-family: 'Oswald', sans-serif;
 }
 p.height {
     height: 125px;
