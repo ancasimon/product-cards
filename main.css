@@ -1,5 +1,5 @@
 body {
-    background-color:white;
+    background-color:#9E9E9E;
 }
 
 .flex-container {
@@ -15,10 +15,11 @@ body {
     box-shadow: 1px 1px 1px 1px;
     height: auto;
     margin: 2em;
-    padding: 20px 10;
+    padding: 0 30px 0 30px;
     width: 25%;
     height: auto;
     text-align: justify;
+    background-color: #F5F5F5;
 }
 
 img {
@@ -31,6 +32,7 @@ img {
     border-style: solid;
     border-color: lightblue;
     text-align: center;
+    background-color: #4CAF50;
 }
 
 .center {
@@ -46,4 +48,19 @@ img {
 }
 p.height {
     height: 125px;
+}
+.dark-primary-color    { background: #616161; }
+.default-primary-color { background: #9E9E9E; }
+.light-primary-color   { background: #F5F5F5; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #4CAF50; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+.nolineheight {
+    line-height:0;
+}
+.smallfont {
+    font-size: 75%;
 }
