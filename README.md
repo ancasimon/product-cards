@@ -6,7 +6,7 @@ This project is an exploration into using HTML and CSS to display a grid of seve
 
 ## Screenshots
 ##### Home Page
-![Home Page](./screenshots/privies_home_page.png)
+![Home Page](./screenshots-product-cards/privies_home_page.png)
 
 
 ## How to Run
